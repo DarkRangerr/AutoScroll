@@ -46,7 +46,7 @@ function setSlider(){
     else if (slider.value >= 450)
         pixels = 5;
     else if (slider.value >= 500)
-        pixels = 6;
+        pixels = 50;
 
     timeout = setInterval(scroll, waitTime);
 
